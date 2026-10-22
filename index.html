@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#070a10">
+  <title>Ingeniería en TI e Innovación Digital | UTOM</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="manifest" href="manifest.json">
+</head>
+<body>
+
+  <!-- Header Cyberpunk -->
+  <header>
+    <div class="logo">
+      <span class="utom-text">UTOM</span>
+      <span class="logo-badge">TI & ID</span>
+    </div>
+
+    <nav>
+      <a href="#about">Carrera</a>
+      <a href="#carousel">Áreas</a>
+      <a href="#curriculum">Mapa Curricular</a>
+      <a href="#gallery">Galería</a>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" id="about">
+    <div class="hero-tag">INNOVACIÓN DIGITAL</div>
+    <h1>Ingeniería en <span>TI e Innovación Digital</span></h1>
+    <p>Formamos líderes en desarrollo multiplataforma, inteligencia artificial, ciberseguridad e IoT en la UTOM.</p>
+    <a href="#curriculum" class="btn-primary">EXPLORAR MAPA CURRICULAR</a>
+  </section>
+
+  <!-- 3D Carousel Section -->
+  <section class="carousel-section" id="carousel">
+    <div class="section-title">
+      <h2>Especialidades de la Carrera</h2>
+      <p>APRENDE TECNOLOGÍAS LÍDERES DEL MERCADO</p>
+    </div>
+
+    <div class="carousel-container">
+      <div class="carousel-3d" id="carousel3d">
+        <div class="carousel-item">
+          <img src="Images/1.jpg" alt="Desarrollo Software" onerror="this.src='https://via.placeholder.com/80/00f0ff/000000?text=Software'">
+          <h3>Desarrollo Web</h3>
+          <p>Multiplataforma, POO y aplicaciones orientadas a servicios.</p>
+        </div>
+        <div class="carousel-item">
+          <img src="Images/2.jpg" alt="Inteligencia Artificial" onerror="this.src='https://via.placeholder.com/80/00ff9d/000000?text=IA'">
+          <h3>Inteligencia Artificial</h3>
+          <p>Ciencia de Datos y Tecnologías Disruptivas.</p>
+        </div>
+        <div class="carousel-item">
+          <img src="Images/3.jpg" alt="Redes y Ciberseguridad" onerror="this.src='https://via.placeholder.com/80/00f0ff/000000?text=Redes'">
+          <h3>Ciberseguridad</h3>
+          <p>Informática Forense, Servidores y Redes.</p>
+        </div>
+        <div class="carousel-item">
+          <img src="Images/4.jpg" alt="Internet de las Cosas" onerror="this.src='https://via.placeholder.com/80/00ff9d/000000?text=IoT'">
+          <h3>IoT & Cloud</h3>
+          <p>Electrónica digital y gestión tecnológica.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Tarjetas de Características -->
+  <section class="carrera-info">
+    <div class="section-title">
+      <h2>¿Por qué estudiar esta Ingeniería?</h2>
+      <p>FORMACIÓN EN COMPETENCIAS PROFESIONALES</p>
+    </div>
+
+    <div class="grid-cards">
+      <div class="card">
+        <div>
+          <h3>🎓 Doble Titulación</h3>
+          <p>Obtén el título de TSU al 6.º cuatrimestre e Ingeniería al 10.º cuatrimestre.</p>
+        </div>
+        <span class="card-tag">TSU + INGENIERÍA</span>
+      </div>
+      <div class="card">
+        <div>
+          <h3>⚡ Proyectos Integradores</h3>
+          <p>Aplica tus conocimientos en proyectos reales durante toda la carrera.</p>
+        </div>
+        <span class="card-tag">PRÁCTICA REAL</span>
+      </div>
+      <div class="card">
+        <div>
+          <h3>🏢 1,200 Hrs de Estadía</h3>
+          <p>Dos períodos de estadía en empresas del sector tecnológico.</p>
+        </div>
+        <span class="card-tag">SECTOR PRODUCTIVO</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Mapa Curricular por Ciclos -->
+  <section class="mapa-section" id="curriculum">
+    <div class="section-title">
+      <h2>MAPA CURRICULAR</h2>
+      <p>PLAN VIGENTE DE 10 CUATRIMESTRES</p>
+    </div>
+
+    <div class="tab-buttons">
+      <button class="tab-btn active" onclick="switchCycle(0)">Primer Ciclo (Formación Inicial)</button>
+      <button class="tab-btn" onclick="switchCycle(1)">Segundo Ciclo (TSU)</button>
+      <button class="tab-btn" onclick="switchCycle(2)">Tercer Ciclo (Ingeniería)</button>
+    </div>
+
+    <!-- Pestaña 1: Primer Ciclo -->
+    <div class="tab-content active" id="ciclo-0">
+      <div class="cuatri-grid">
+        <div class="cuatri-box">
+          <h4>1.er Cuatrimestre</h4>
+          <ul>
+            <li>Inglés I</li>
+            <li>Desarrollo Humano y Valores</li>
+            <li>Fundamentos Matemáticos</li>
+            <li>Fundamentos de Redes</li>
+            <li>Física</li>
+            <li>Fundamentos de Programación</li>
+            <li>Comunicación y Habilidades Digitales</li>
+          </ul>
+        </div>
+        <div class="cuatri-box">
+          <h4>2.º Cuatrimestre</h4>
+          <ul>
+            <li>Inglés II</li>
+            <li>Habilidades Socioemocionales y Manejo de Conflictos</li>
+            <li>Cálculo Diferencial</li>
+            <li>Conmutación y Enrutamiento de Redes</li>
+            <li>Probabilidad y Estadística</li>
+            <li>Programación Estructurada</li>
+            <li>Sistemas Operativos</li>
+          </ul>
+        </div>
+        <div class="cuatri-box">
+          <h4>3.er Cuatrimestre</h4>
+          <ul>
+            <li>Inglés III</li>
+            <li>Desarrollo del Pensamiento y Toma de Decisiones</li>
+            <li>Cálculo Integral</li>
+            <li>Tópicos de Calidad para el Diseño de Software</li>
+            <li>Bases de Datos</li>
+            <li>Programación Orientada a Objetos</li>
+            <li><strong>Proyecto Integrador I</strong></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Pestaña 2: Segundo Ciclo -->
+    <div class="tab-content" id="ciclo-1">
+      <div class="cuatri-grid">
+        <div class="cuatri-box">
+          <h4>4.º Cuatrimestre</h4>
+          <ul>
+            <li>Inglés IV</li>
+            <li>Ética Profesional</li>
+            <li>Cálculo de Varias Variables</li>
+            <li>Aplicaciones Web</li>
+            <li>Estructura de Datos</li>
+            <li>Desarrollo de Aplicaciones Móviles</li>
+            <li>Análisis y Diseño de Software</li>
+          </ul>
+        </div>
+        <div class="cuatri-box">
+          <h4>5.º Cuatrimestre</h4>
+          <ul>
+            <li>Inglés V</li>
+            <li>Liderazgo de Equipos de Alto Desempeño</li>
+            <li>Ecuaciones Diferenciales</li>
+            <li>Aplicaciones Web Orientadas a Servicios</li>
+            <li>Bases de Datos Avanzadas</li>
+            <li>Estándares y Métricas para Desarrollo de Software</li>
+            <li><strong>Proyecto Integrador II</strong></li>
+          </ul>
+        </div>
+        <div class="cuatri-box">
+          <h4>6.º Cuatrimestre</h4>
+          <ul>
+            <li><strong>Estadía Profesional TSU</strong> (600 HRS)</li>
+            <li><em>Título obtenido: TSU en Desarrollo de Software Multiplataforma</em></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Pestaña 3: Tercer Ciclo -->
+    <div class="tab-content" id="ciclo-2">
+      <div class="cuatri-grid">
+        <div class="cuatri-box">
+          <h4>7.º Cuatrimestre</h4>
+          <ul>
+            <li>Inglés VI</li>
+            <li>Habilidades Gerenciales</li>
+            <li>Formulación de Proyectos de Tecnología</li>
+            <li>Fundamentos de Inteligencia Artificial</li>
+            <li>Ética y Legislación en Tecnologías de la Información</li>
+            <li>Optativa I</li>
+            <li>Seguridad Informática</li>
+          </ul>
+        </div>
+        <div class="cuatri-box">
+          <h4>8.º Cuatrimestre</h4>
+          <ul>
+            <li>Inglés VII</li>
+            <li>Electrónica Digital</li>
+            <li>Gestión de Proyectos de Tecnología</li>
+            <li>Programación para Inteligencia Artificial</li>
+            <li>Administración de Servidores</li>
+            <li>Optativa II</li>
+            <li>Informática Forense</li>
+          </ul>
+        </div>
+        <div class="cuatri-box">
+          <h4>9.º Cuatrimestre</h4>
+          <ul>
+            <li>Inglés VIII</li>
+            <li>Internet de las Cosas (IoT)</li>
+            <li>Evaluación de Proyectos de Tecnología</li>
+            <li>Ciencia de Datos</li>
+            <li>Tecnologías Disruptivas</li>
+            <li>Optativa III</li>
+            <li><strong>Proyecto Integrador III</strong></li>
+          </ul>
+        </div>
+        <div class="cuatri-box">
+          <h4>10.º Cuatrimestre</h4>
+          <ul>
+            <li><strong>Estadía Profesional de Ingeniería</strong> (600 HRS)</li>
+            <li><em>Título obtenido: Ingeniero en TI e Innovación Digital</em></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Galería de Imágenes -->
+  <section class="carrera-info" id="gallery">
+    <div class="section-title">
+      <h2>Nuestra Comunidad</h2>
+      <p>INSTALACIONES Y TALLERES EN MARAVATÍO</p>
+    </div>
+
+    <div class="gallery-grid">
+      <img src="Images/1.jpg" alt="UTOM 1" onerror="this.src='https://via.placeholder.com/300x200/0f172a/00f0ff?text=UTOM+TI+1'">
+      <img src="Images/2.jpg" alt="UTOM 2" onerror="this.src='https://via.placeholder.com/300x200/0f172a/00f0ff?text=UTOM+TI+2'">
+      <img src="Images/3.jpg" alt="UTOM 3" onerror="this.src='https://via.placeholder.com/300x200/0f172a/00f0ff?text=UTOM+TI+3'">
+      <img src="Images/4.jpg" alt="UTOM 4" onerror="this.src='https://via.placeholder.com/300x200/0f172a/00f0ff?text=UTOM+TI+4'">
+    </div>
+  </section>
+
+  <!-- Footer con Botón de Llamada -->
+  <footer>
+    <div class="newsletter-box">
+      <h3>¿Quieres ser parte de la UTOM?</h3>
+      <p>Inscripciones abiertas en la Universidad Tecnológica del Oriente de Michoacán (Maravatío, Mich.).</p>
+      <a href="tel:4471508913" class="btn-call">Llámanos: 447-150-8913</a>
+    </div>
+    <p style="text-align: center; color: var(--text-muted);">&copy; 2026 Universidad Tecnológica del Oriente de Michoacán</p>
+  </footer>
+
+  <!-- Banner PWA -->
+  <div class="install-banner" id="installBanner" style="display: none;">
+    <span>Instala la App de la Carrera TI UTOM</span>
+    <button class="btn-install" id="installBtn">INSTALAR</button>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
