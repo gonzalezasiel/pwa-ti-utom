@@ -1,4 +1,4 @@
-const CACHE_NAME = 'pwa-ti-utom-v6';
+const CACHE_NAME = 'pwa-ti-utom-v4';
 const ASSETS = [
   './',
   './index.html',
