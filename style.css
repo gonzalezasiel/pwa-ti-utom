@@ -437,27 +437,6 @@ nav a:hover {
   border-bottom: none;
 }
 
-/* GALERÍA */
-.gallery-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 20px;
-}
-
-.gallery-grid img {
-  width: 100%;
-  height: 200px;
-  object-fit: cover;
-  border-radius: var(--radius-sm);
-  border: 1px solid var(--border-glow);
-  transition: var(--transition);
-}
-
-.gallery-grid img:hover {
-  transform: scale(1.05);
-  border-color: var(--carrera-cyan);
-}
-
 /* FOOTER Y BOTÓN DE LLAMADA */
 footer {
   background: linear-gradient(180deg, rgba(7, 10, 16, 0.95), #030508), url('Images/4.jpg');
